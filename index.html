@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="btn">
+      <button type="button" onclick="bold()" id="bold">Bold</button>
+      <button type="button" onclick="italic()" id="italic">Italic</button>
+      <button type="button" onclick="underline()" id="underline">Underline</button>
+      <!-- <button type="button" onclick="saper()" id="super">Sup</button>
+      <button type="button" onclick="sub()" id="sub">Sub</button> -->
+      <select name="font_size" id="font_size">
+        <option value="16px">16px</option>
+        <option value="20px">20px</option>
+        <option value="24px">24px</option>
+        <option value="28px">28px</option>
+        <option value="32px">32px</option>
+        <option value="36px">36px</option>
+        <option value="40px">40px</option>
+        <option value="44px">44px</option>
+        <option value="48px">48px</option>
+        <option value="52px">52px</option>
+        <option value="56px">56px</option>
+        <option value="60px">60px</option>
+      </select>
+      <select name="font_family" id="font_family">
+        <option value="sans-serif">sans-serif</option>
+        <option value="Times">Times</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="system-ui">system-ui</option>
+        <option value="algerian">algerian</option>
+        <option value="Segoe UI">Segoe UI</option>
+        <option value="helvetica">helvetica</option>
+        <option value="impact">impact</option>
+        <option value="haettenschweiler">haettenschweiler</option>
+        <option value="Arial Narrow Bold">Arial Narrow Bold</option>
+        <option value="Arial Narrow">Arial Narrow</option>
+        <option value="verdana">verdana</option>
+        <option value="Geneva">Geneva</option>
+        <option value="Lucida Sans">Lucida Sans</option>
+        <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Cambria">Cambria</option>
+      </select>
+
+      <select name="casechanger" id="casechanger">
+        <option value="Default">Default</option>
+      <option value="Capitalize">Capitalize</option>
+      <option value="Uppercase">Uppercase</option>
+      <option value="Lowercase">Lowercase</option>
+      </select>
+      <input type="text" id="color" placeholder="Enter a Color Name">
+    </div>
+    <button type="button" onclick="theme()" id="changer">Dark Mode</button>
+    <div class="text">
+      <textarea name="text" id="text" ></textarea>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
